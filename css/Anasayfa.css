@@ -1,0 +1,72 @@
+body {
+    background-image: url("resimler/anasayfaarkaplan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#icerik {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#sol, #sağ {
+    flex: 1 1 400px;
+    max-width: 500px;
+    box-sizing: border-box;
+    margin: 10px;
+    height: auto;
+}
+
+#sol img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#sağ {
+    text-align: center;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    text-align: left;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #faf8f8a6;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    #icerik {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #sol, #sağ {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/Urunlerimiz.css">
+        <script src="java/urunlerimiz.js"></script>
+    </head>
+    <body>
+        <div id="conteiner">
+            <header>
+                <div id="baslık">
+                    <h1><img src="resimler/quhjmbru_0.jpg" alt="logo" width="10%" height="10%">ORİON TARIM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BİZİM İŞİMİZ SİZİN SAĞLIĞINIZ</h1>
+                </div>
+            </header>
+            <section>
+                <div id="orta">
+                    <div id="navigasyon">
+                        <nav>
+                            <ul class="kategori">
+                                <li><a href="index.html">Anasayfa</a></li>
+                                <li><a href="nedenbiz.html">Neden biz?</a></li>
+                                <li><a href="misyon.html">Vizyonumuz Ve Misyonumuz</a></li>
+                                <li><a href="bayi.html">Bayilerimiz</a></li>
+                                <li><a href="bayibasvuru.html">Bayilik Başvuru</a></li>
+                                <li><a href="iletisim.html">Bize Ulaşın</a></li>
+                                <li><a href="galeri.html">Galeri</a></li>
+                                <li><a href="kereviz.html">Kereviz Yemek Tarifi</a></li>
+                                <li><a href="dolma.html">Dolma Yemek Tarifi</a></li>
+                                <li><a href="zeytinsalata.html">Zeytin Yağlı Salata Tarifi</a></li>
+                                <li><a href="sponsorlar.html">Sponsorlar</a></li>
+                            </ul>
+                        </nav>
+                        <div class="odeme">
+                            <h3>Sepetiniz</h3>
+                            <img id="sepet" src="resimler/sepet.png" width="90px" height="60px">
+                            <hr>
+                            <p id="odeme1"></p>
+                            <p id="odeme2"></p>
+                            <p id="odeme3"></p>
+                            <p id="odeme4"></p>
+                            <p id="odeme5"></p>
+                            <p id="odeme6"></p>
+                            <p id="odeme7"></p>
+                            <p id="odeme8"></p>
+                            <p id="odeme9"></p>
+                            <p id="odeme10"></p>
+                            <p id="odeme11"></p>
+                            <p id="odeme12"></p>
+                            <p id="toplam"></p>
+                            <button id="siparisver" onclick="siparisver()">Sipariş Ver</button>
+                            <button id="sepetitemizle" onclick="sepetisil()">Sepeti Temizle</button>
+
+                        </div>
+                    </div> 
+                   
+                    <div id="hamurunler">
+                        <h2>Ham Ürünlerimiz<br><button id="buton1" type="button" onclick="goster()">Ürünleri Görmek İçin Lütfen Tıklayınız</button></h2>
+                        <table id="sonuc1">
+                            <tr>
+                                <td><img src="resimler/domates.jfif" alt="domates" width="200px" height="200px"><p>Orion Domates(Kg)<br>3TL<br><button id="buton1" onclick="sepet()">Sipariş Ver</button></p></td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="resimler/doğalsalatalık.jpg" alt="salatalık"width="200px" height="200px"><p>Orion Salatalık(Kg)<br>2TL<br><button id="buton2" onclick="sepet2()">Sipariş Ver</button></p></td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="resimler/biber.jpg" alt="biber"width="200px" height="200px"><p>Orion Biber(Kg)<br>1TL<br><button id="buton3" onclick="sepet3()">Sipariş Ver</button></p></td>
+                            </tr>
+                            <tr>
+                                <td><img src="resimler/kirmizibiber.jfif" alt="kirmizibiber" width="200px" height="200px"><p class="alturun">Orion Kırmızı Biber(kg)<br>2TL<br><button id="buton4" onclick="sepet4()">Sipariş Ver</button></p></td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="resimler/kereviz.jpg" alt="kereviz" width="200px" height="200px"><p class="alturun">Orion kereviz(kg)<br>1,50TL<br><button id="buton5" onclick="sepet5()">Sipariş Ver</button></p></td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="resimler/yesilzeytin.jpg" alt="kirmizibiber" width="200px" height="200px"><p class="alturun">Orion Yeşil Zeytin(kg)<br>10TL<br><button id="buton6" onclick="sepet6()">Sipariş Ver</button></p></td>
+                            
+                            </tr>
+                        </table>
+                    
+                    
+                    </div>
+                    <div id="islenmisurunler">
+                        <h2>İşlenmiş Ürünlerimiz<br><button id="buton2" type="button" onclick="goster2()">Ürünleri Görmek İçin Lütfen Tıklayınız</button></h2>
+                        <table id="sonuc2">
+                            <tr>
+                                <td><img src="resimler/Domatessalca.jfif" alt="domatessalca" width="200px" height="200px"><p>Orion Domates Salça(Kg)<br>15TL<br><button id="buton7" onclick="sepet7()">Sipariş Ver</button></p></td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="resimler/dogalbibersalcası.jpg" alt="bibersalcası" width="200px" height="200px"><p>Orion Biber Salça(Kg)<br>30TL<br><button id="buton8" onclick="sepet8()">Sipariş Ver</button></p></td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="resimler/karısıksalca.jfif" alt="karısıksalca" width="200px" height="200px"><p>Orion Karışık Salça(Kg)<br>20TL<br><button id="buton9" onclick="sepet9()">Sipariş Ver</button></p></td>
+                            </tr>
+                            <tr>
+                                <td><img src="resimler/dogalzeytiny.jfif" alt="yag" width="200px" height="200px"><p class="alturun">Orion Yeşil Zeytin Yağ(lt)<br>40TL<br><button id="buton10" onclick="sepet10()">Sipariş Ver</button></p></td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="resimler/salatalıktursusu.jpg" alt="tursu" width="200px" height="200px"><p class="alturun">Orion Salatalık Turşusu(kg)<br>20TL<br><button id="buton11" onclick="sepet11()">Sipariş Ver</button></p></td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="resimler/kereviztoz.jpg" alt="toz" width="200px" height="200px"><p class="alturun">Orion kereviz Tozu(kg)<br>25TL<br><button id="buton12" onclick="sepet12()">Sipariş Ver</button></a></p></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div id="son">
+                    <p id="sonyazi">Orion Corporation Tarım</p>
+                    <p>Tüm Hakları Saklıdır© </p>
+                    <a id="iletisim"  href="iletisim.html">İletişim Bilgileri</a>
+                </div>
+            </footer>
+        </div>    
+    </body>
+</html>

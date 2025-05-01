@@ -1,0 +1,46 @@
+body {
+    padding: 3px;
+    background-color: #bbb;
+}
+
+h1 {
+    margin: 0;
+}
+
+progress[value] {
+   
+    -webkit-appearance: none;
+     appearance: none;
+  
+    width: 250px;
+    height: 20px;
+  }
+
+
+
+#baslik1 {
+    background-color: rgba(85, 79, 79, 0.603);
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 25px;
+}
+
+#baslik2 {
+    background-color: yellow;
+    color: blue;
+    margin-top: 0;
+}
+
+.centered {
+    text-align: center;
+}
+
+.altbaslik{
+    background-color: rgb(0, 111, 139);
+    color: #aaa;
+}
+
+#son {
+    background-color: rgb(85, 79, 79, 0.603);
+}
+
